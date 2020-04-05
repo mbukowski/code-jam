@@ -3,8 +3,8 @@ import fileinput
 def main():
     cases_no = 0
 
-    f = fileinput.input()
-    # f = open("./2020-01-qualification/input/a_vestigum_test.in", "r")
+    # f = fileinput.input()
+    f = open("./2020-01-qualification/input/a_vestigum_test.in", "r")
     # f = open("./input/a_vestigum_test.in", "r")
     l1 = f.readline()
     cases_no = int(l1)
